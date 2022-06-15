@@ -19,5 +19,11 @@ window.addEventListener('keydown', playSound);
 
 document.addEventListener('click', playSound);
 
-document.addEventListener('touchstart', playSound);//Para celular.
+
+/* Estoy intentando agregar las funciones para celular.
+if(keys){
+    document.addEventListener('touchstart', playSound);//Para celular.
+    document.addEventListener('touchend', playSound);
+}
+*/
 
