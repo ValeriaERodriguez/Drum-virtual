@@ -9,7 +9,7 @@ function playSound(e) {
 }
 
 function removeTransition(e) {
-    if (e.propertyName !== 'Transform') return; //ssáltatelo si no es una transformación
+    if (e.propertyName !== 'Transform') return; //sáltatelo si no es una transformación
     this.classList.remove('playing');
 }
 
@@ -19,5 +19,5 @@ window.addEventListener('keydown', playSound);
 
 document.addEventListener('click', playSound);
 
-
+document.addEventListener('touchstart', playSound);//Para celular.
 
